@@ -162,7 +162,9 @@ footer {
 .primary__main-img {
   width: 60%;
   height: 100%;
-  border-radius:70%
+  border-radius:70%;
+  border-color:#F0E68C;
+  border-style: dashed;
 }
 
 .section__title {
@@ -176,6 +178,7 @@ footer {
 .primary__title {
   font-size: 72px;
   margin-bottom: 20px;
+  animation: typewriter 4s steps(23) infinite, blink 0.5s steps(23) infinite;
 }
 
 .primary__title > span {
@@ -183,6 +186,8 @@ footer {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+
 
 .primary__text {
   margin-bottom: 25px;
@@ -207,7 +212,7 @@ footer {
 }
 
 .primary__social {
-  width: 750px;
+  width: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;

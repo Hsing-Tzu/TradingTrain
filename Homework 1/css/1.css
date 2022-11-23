@@ -62,7 +62,7 @@ footer {
 
 .link-text:hover {
   transition: all 0.2s;
-  color: #ffb500;
+  color: #6bacc6;;
 }
 
 @media screen and (max-width: 767px) {
@@ -198,7 +198,7 @@ footer {
 }
 
 .link-button:hover {
-  background-color: #ffb500;
+  background-color:#6bacc6;;
   transition: all 0.2s;
 }
 
@@ -207,7 +207,7 @@ footer {
 }
 
 .primary__social {
-  width: 150px;
+  width: 750px;
   display: flex;
   justify-content: space-between;
   align-items: center;

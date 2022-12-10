@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Mangement</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>會員管理後台</h1>
+        </header>
+        <div class="tableContainer" >
+            <table class="table" id="infotable">
+                <thead>
+                    <tr>
+                    
+                        <th>姓名</th>
+                        <th>信箱</th>
+                        <th>電話</th>
+                        <th>加入日期</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr>
+                        <td>xxx</td>
+                        <td>123@gmail.com</td>
+                        <td>0900000000</td>
+                        <td>2022-12-07</td>
+                        <td>
+                            <button>修改</button>
+                            <button >刪除</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+            <form>
+            <input type="text" placeholder="姓名" class="ip" id="name"/>
+            <input type="text" placeholder="email" class="ip" id="email"/>
+            <input type="text" placeholder="電話" class="ip" id="phone"/>
+            <input type="button" value="新增" class="button"  onclick='add()'>
+            </form>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

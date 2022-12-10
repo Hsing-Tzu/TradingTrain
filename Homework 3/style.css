@@ -1,0 +1,42 @@
+@media(min-width: 150px) {
+    header {
+        background-color: gainsboro;
+        display: flex
+        
+    }
+    
+    table {
+        
+        font-family: 微軟正黑體;
+        font-size:16px;
+        text-align:center;
+        border-collapse:collapse;
+        width:100%;
+        
+        }
+        th {
+        background-color: rgba(237, 235, 211, 0.999);
+        border:1px solid whitesmoke;
+        color:black;
+        }
+        td {
+        border:1px solid whitesmoke;
+        }
+        tr{
+        height:60px;
+        }
+    
+    
+    
+    .button {
+        cursor:pointer;
+    }
+    .ip{
+        width: 15%;
+        height: 30px;
+    }
+    input {
+        
+        margin-top: 10px;
+    }
+    }

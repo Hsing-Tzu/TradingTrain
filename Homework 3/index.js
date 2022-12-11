@@ -10,10 +10,10 @@ let table = document.getElementById("infotable");
 // 建立新行
 let newRow = table.insertRow();
 // 建立三個新單元格 向表格中插入元素
-newRow.insertCell().innerHTML = nameElement.value;
-newRow.insertCell().innerHTML = emailElement.value;
-newRow.insertCell().innerHTML = phoneElement.value;
-newRow.insertCell().innerHTML = new Date().toLocaleString();
+newRow.insertCell().innerText = nameElement.value;
+newRow.insertCell().innerText = emailElement.value;
+newRow.insertCell().innerText = phoneElement.value;
+newRow.insertCell().innerText = new Date().toLocaleString();
 newRow.insertCell().innerHTML = '<input type="button" value="修改" class="button" onclick="editRow(this)"></input>  <input type="button" value="刪除" class="button" onclick="delRow(this)"></input>'
 nameElement.value = '';
 emailElement.value = '';

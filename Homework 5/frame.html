@@ -10,11 +10,15 @@
 <body>
     <div class="bigcontainer">
         <div class="banner"></div>
-        <header class="header">
+        <header id="header" class="header">
             <div class="logo top"></div>
-            <div class="menu"></div>
+            <div class="menu" id="menu">
+                <script src="data/headerlist.js"></script>
+                <script src="script/renderheader.js"></script>   
+            </div>
             <div class="tool top"></div>
         </header>
+        
         <section class="list-news">
             <div class="list-news__left">
                 <div class="story-list__news1 ">
@@ -31,13 +35,20 @@
                     <div class="story-list__text"></div>
                 </div>
             </div>
-            <div class="list-news__main">
-                <div class="list-news__center">
+            <div class="list-news__main" id="list-news__main">
+                <div class="list-news__center" id="list-news__center">
                     <div class="story-list__news1 ">
-                        <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__image" >
+                            <img class="list-news__center__image" id="list-news__center__image"/>
+                        </div>
+                        <div class="story-list__text " >
+                            <text class="list-news__center__text" id="list-news__center__text"></text>
+                        </div>
                     </div>
+                    <script src="data/mainnews.js"></script>
+                    <script src="script/rendermainnews.js"></script>
                 </div>  
+                
                 <div class="list-news__last">
                     <div class="story-list__news1 ">
                         <div class="story-list__image"></div>

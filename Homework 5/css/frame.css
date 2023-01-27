@@ -45,8 +45,9 @@ body {
     font-size: 36px;
 }
 
-.story-list__text{
-    
+.list-news__last__image{
+    width: 40%;
+    height: 200px;
 }
 
 
@@ -78,14 +79,14 @@ body {
 
 .list-news__center{
     display: flex;
-    flex-wrap: wrap;
+   
     height: 300px;
     width: 100%;
 }
 
 .list-news__last{
     display: flex;
-    flex-wrap: wrap;
+    
     height: 200px;
     width: 100%;
 }

@@ -45,9 +45,10 @@
                     <div class="story-list__news1 ">
                         <div class="story-list__image" >
                             <img class="list-news__center__image" id="list-news__center__image"/>
+                            <text class="list-news__center__text" id="list-news__center__text"></text>
                         </div>
                         <div class="story-list__text " >
-                            <text class="list-news__center__text" id="list-news__center__text"></text>
+                            
                         </div>
                     </div>
                     <script src="data/mainnews.js"></script>
@@ -87,27 +88,29 @@
                     <script src="script/rendereditornews.js"></script>
                 </div>
             </section>
-            <section class=" select-news">
+            <section class=" select-news" id="select-news">
                 <header class="context-box__header">
                     <h3 class="context-box__title">精選推薦</h3>
                 </header>
                 <div class="context-box__content story-list__holder2">
                     <div class="story-list__news2 ">
                         <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__text2" id="story-list__text2"></div>
                     </div>
                     <div class="story-list__news2 ">
                         <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__text2" id="story-list__text2"></div>
                     </div>
                     <div class="story-list__news2 ">
                         <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__text2" id="story-list__text2"></div>
                     </div>
                     <div class="story-list__news2 ">
                         <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__text2" id="story-list__text2"></div>
                     </div>
+                    <script src="data/selectnews.js"></script>
+                    <script src="script/renderselectnews.js"></script>
                 </div>
             </section>
             </section>
@@ -272,30 +275,34 @@
                 </header>
             
                 <div class="context-box__content story-list__holder story-list__holder--column-double">
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
-                    <div class="story-list__news "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest "></div>
+                    <div class="latest"></div>
+                    <script src="data/latestnews.js"></script>
+                    <script src="script/renderlatestnews.js"></script>
                 </div>
             </div>            
         </section>
-        <section class="pod-news">
+        <section class="pod-news" id="pod-news">
             <div class="container">
                 <header class="context-box__header">
                     <h3 class="context-box__title">聯合開Pod</h3>
                 </header>
-                <div class="pod-list">
-                    <div class="pod"></div>
-                    <div class="pod"></div>
-                    <div class="pod"></div>
-                    <div class="pod"></div>
+                <div class="pod-list" id="pod-list">
+                    <div class="pod"><img class="podimg"></div>
+                    <div class="pod"><img class="podimg"></div>
+                    <div class="pod"><img class="podimg"></div>
+                    <div class="pod"><img class="podimg"></div>
                 </div>
+                <script src="data/podnews.js"></script>
+                <script src="script/renderpodnews.js"></script>
             </div>
         </section>
         <footer class="footer"></footer>

@@ -3,4 +3,4 @@ const imgElement = document.getElementById("list-news__center__image");
 const textElement = document.getElementById("list-news__center__text");
 aElement.href = mainnews.href;
 imgElement.src = mainnews.src;
-textElement.text = mainnews.text;
+textElement.innerText = mainnews.text;

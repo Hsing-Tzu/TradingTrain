@@ -118,22 +118,29 @@
             </section>
             
         </section>
-        <section class="graphic-news">
+        <section class="graphic-news" id="graphic">
             <header class="context-box__header">
                 <h3 class="context-box__title">圖解新聞</h3>
             </header>
             <div class="story-list__news3 ">
-                <div class="story-list__image"></div>
-                <div class="story-list__text"></div>
+                <div class="story-list__image" id="graphic-news__image">
+                    <img class="graphic-news__image"  id="graphic__image">
+                </div>
+                <div class="story-list__text graphic-news__text" >
+                    <div id="graphic__title"></div>
+                    <div id="graphic__text"></div>
+                </div>
             </div>
+            <script src="data/graphicnews.js"></script>
+            <script src="script/rendergraphicnews.js"></script>
         </section>
         <section class="newspaper-news">
             <div class="newspaper-news__wrapper">
                 <header class="context-box__header">
                     <h3 class="context-box__title">今日報紙</h3>
                 </header>
-                <div class="newspaper-news__image" id="newspaper-news__image">
-                    <img id="newspaper">
+                <div class="newspaper-image" id="newspaper-news__image">
+                    <img class="newspaper-news__image" id="newspaper">
                 </div>
                 <script src="data/newspaper.js"></script>
                 <script src="script/rendernewspaper.js"></script>
@@ -145,15 +152,28 @@
                     <h3 class="context-box__title">國際</h3>
                 </header>
                 <div class="section-news__wrapper">
-                    <div class="story-list__news4 section-news__left">
-                        <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                    <div class="story-list__news4 section-news__left" id="international1">
+                        <div class="story-list__image">
+                            <img class="section-news__image1" id="international__image1">
+                        </div>
+                        <div class="story-list__text in1">
+                            <div id="inbigtitle1"></div>
+                            <div id="intitle1"></div>
+                            <div id="intext1"></div>
+                        </div>
                     </div>
                     <div class="story-list__news4 section-news__right">
-                        <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__image">
+                            <img class="section-news__image2" id="international__image2">
+                        </div>
+                        <div class="story-list__text in2">
+                            <div id="inbigtitle2"></div>
+                            <div id="intitle2"></div>
+                        </div>
                     </div>
                 </div>
+                <script src="data/internationalnews.js"></script>
+                <script src="script/renderinternationalnews.js"></script>
             </div>
             
             <div class="sn2">
@@ -162,14 +182,27 @@
                 </header>
                 <div class="section-news__wrapper">
                     <div class="story-list__news4 section-news__left">
-                        <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__image">
+                            <img class="section-news__image1" id="financial__image1">
+                        </div>
+                        <div class="story-list__text fn1">
+                            <div id="fnbigtitle1"></div>
+                            <div id="fntitle1"></div>
+                            <div id="fntext1"></div>
+                        </div>
                     </div>
                     <div class="story-list__news4 section-news__right">
-                        <div class="story-list__image"></div>
-                        <div class="story-list__text"></div>
+                        <div class="story-list__image">
+                            <img class="section-news__image2" id="financial__image2">
+                        </div>
+                        <div class="story-list__text fn2">
+                            <div id="fnbigtitle2"></div>
+                            <div id="fntitle2"></div>
+                        </div>
                     </div>
                 </div>
+                <script src="data/financialnews.js"></script>
+                <script src="script/renderfinancialnews.js"></script>
             </div>
         </section>
         <section class="lander-editor">
@@ -179,7 +212,11 @@
             <div class="splide__track lander-editor__wrapper" id="splide02-track">
                 <div class="le1">
                     <div class="author-list lander-editor__left">
-                        <div class="author-list__wrapper"></div>
+                        <div class="author-list__wrapper">
+                            <img id="leimage1">
+                            <div id = "lename1"></div>
+                            <div id="lenews1"></div>
+                        </div>
                     </div>
                     <div class="lander-editor__right">
                         <div class="story-list__news5 lander-editor__sub">
@@ -195,7 +232,11 @@
                 
                 <div class="le2">
                     <div class="author-list lander-editor__left">
-                        <div class="author-list__wrapper"></div>
+                        <div class="author-list__wrapper">
+                            <img id="leimage2">
+                            <div id = "lename2"></div>
+                            <div id="lenews2"></div>
+                        </div>
                     </div>
                     <div class="lander-editor__right">
                         <div class="story-list__news5 lander-editor__sub">
@@ -216,12 +257,13 @@
                     <h3 class="context-box__title">評論</h3>
                 </header>
                 <div class="author-list">
-                    <div class="author"></div>
+                    <div class="author"  ></div>
                     <div class="author"></div>
                     <div class="author"></div>
                     <div class="author"></div>
                 </div>
-                
+                <script src="data/leadercomment.js"></script>
+                <script src="script/renderleadercomment.js"></script>
             </div>
             
         </section>
@@ -232,7 +274,9 @@
                 </header>
                 <div class="sub-news_wrapper">
                     <div class="sub-news_description"></div>
-                    <div class="sub-news_image"></div>
+                    <div class="sub-news_image">
+                        <img id="sub__image">
+                    </div>
                 </div>
             </div>
         </section>    

@@ -34,7 +34,7 @@ body {
     width: 25%;
 }
 
-
+/*pod-news*/
 
 .pod-list{
     display: flex;
@@ -45,7 +45,21 @@ body {
 
 .pod>img{
     height: 200px;
-    width: 100%;
+    width: 95%;
+    padding: 2%;
+}
+
+.pod>a{
+    font-size: 20px;
+    font-family: PMingLiU;
+    font-weight:bold;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    padding-top: 5%;
+    padding-left: 2%;
 }
 
 .list-news__center__image{
@@ -93,6 +107,8 @@ body {
 
 
 
+
+
 .list-news{
     display: flex;
     flex-wrap: wrap;
@@ -108,9 +124,8 @@ body {
 }
 
 .latest>img{
-    height: 100px;
+    height: 90px;
     float: left;
-    width: 45%;
 }
 
 .latest>a{
@@ -123,8 +138,9 @@ body {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     float: left;
-    width: 55%;
-    height: 100px;
+    width: 50%;
+    height: 90px;
+    margin: 1% 3%;
 }
 
 .story-list__holder1{
@@ -326,18 +342,68 @@ body {
     float: right;
 }
 
-
+/*lander-editor*/
 
 .le1,.le2{
     width: 50%;
     float: left;
-    height:200px;
+    height:400px;
+}
+
+.leimage{
+    width: 90%;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.lename{
+    height: 50px;
+    font-size: 20px;
+}
+
+.lander-news__image{
+    height: 150px;
+    width: 35%;
+    float: left;
 }
 
 .lander-editor__left{
     width: 30%;
     float: left;
-    height:200px;
+    height:400px;
+}
+
+.lander-editor__right{
+    width: 70%;
+    float: left;
+    height:400px;
+}
+
+.story-list__text5{
+    height: 200px;
+    width: 55%;
+    float: left;
+    padding: 3%;
+}
+
+.lebt{
+    font-size: 20px;
+    text-align: center; 
+    border: 1px solid;
+    border-radius: 10%;
+    width: 90px;
+    line-height: 45px;
+}
+
+.letitle{
+    padding-top: 5%;
+    font-size: 20px;
+    font-family: PMingLiU;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 /*leader-comment*/
@@ -486,7 +552,7 @@ body {
 }
 
 .author,.pod,.story-list__news,.story-list__news1,.editor-news,.select-news,.latest,.header,.logo,.menu,.tool,.graphic-news,.newspaper-news,.section-news,.story-list__news4,.lander-editor,.le1,.le2,.secondary-news,.story-list__news6{
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
     box-sizing: border-box;
 }
 

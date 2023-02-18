@@ -1,0 +1,21 @@
+const imgeditor1Element=document.getElementById("leimage1");
+const name1Element = document.getElementById("lename1");
+const news1Element = document.getElementById("lenews1");
+const le1Element = document.getElementById("lander1");
+const imgle1Element = document.getElementById("lander__image1");
+const bigtitlele1Element = document.getElementById("lebigtitle1");
+const titlele1Element = document.getElementById("letitle1");
+const le2Element = document.getElementById("lander2");
+const imgle2Element = document.getElementById("lander__image2");
+const bigtitlele2Element = document.getElementById("lebigtitle2");
+const titlele2Element = document.getElementById("letitle2");
+
+imgeditor1Element.src=landereditor1.src;
+name1Element.innerText=landereditor1.name;
+news1Element.innerText=landereditor1.text;
+imgle1Element.src = landereditor1.src1;
+bigtitlele1Element.innerText = landereditor1.bigtitle1;
+titlele1Element.innerText = landereditor1.title1;
+imgle2Element.src = landereditor1.src2;
+bigtitlele2Element.innerText = landereditor1.bigtitle2;
+titlele2Element.innerText = landereditor1.title2;

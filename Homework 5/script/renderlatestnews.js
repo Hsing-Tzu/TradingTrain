@@ -5,6 +5,7 @@ latestElements.forEach((latestElement, idx) => {
   aElement.href = latestnews[idx].href;
   aElement.innerText = latestnews[idx].text;
   imgElement.src = latestnews[idx].src;
+  latestElement.appendChild(imgElement);
   latestElement.appendChild(aElement);
   
 });

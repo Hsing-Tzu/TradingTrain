@@ -127,8 +127,8 @@
                     <img class="graphic-news__image"  id="graphic__image">
                 </div>
                 <div class="story-list__text graphic-news__text" >
-                    <div id="graphic__title"></div>
-                    <div id="graphic__text"></div>
+                    <div id="graphic__title" class="gntitle"></div>
+                    <div id="graphic__text" class="gntext"></div>
                 </div>
             </div>
             <script src="data/graphicnews.js"></script>
@@ -157,9 +157,9 @@
                             <img class="section-news__image1" id="international__image1">
                         </div>
                         <div class="story-list__text in1">
-                            <div id="inbigtitle1"></div>
-                            <div id="intitle1"></div>
-                            <div id="intext1"></div>
+                            <div id="inbigtitle1" class="inbt"></div>
+                            <div id="intitle1" class="intitle1"></div>
+                            <div id="intext1" class="intext1"></div>
                         </div>
                     </div>
                     <div class="story-list__news4 section-news__right">
@@ -167,8 +167,8 @@
                             <img class="section-news__image2" id="international__image2">
                         </div>
                         <div class="story-list__text in2">
-                            <div id="inbigtitle2"></div>
-                            <div id="intitle2"></div>
+                            <div id="inbigtitle2" class="inbt"></div>
+                            <div id="intitle2" class="intitle2"></div>
                         </div>
                     </div>
                 </div>
@@ -186,9 +186,9 @@
                             <img class="section-news__image1" id="financial__image1">
                         </div>
                         <div class="story-list__text fn1">
-                            <div id="fnbigtitle1"></div>
-                            <div id="fntitle1"></div>
-                            <div id="fntext1"></div>
+                            <div id="fnbigtitle1"  class="fnbt"></div>
+                            <div id="fntitle1" class="fntitle1"></div>
+                            <div id="fntext1" class="fntext1"></div>
                         </div>
                     </div>
                     <div class="story-list__news4 section-news__right">
@@ -196,8 +196,8 @@
                             <img class="section-news__image2" id="financial__image2">
                         </div>
                         <div class="story-list__text fn2">
-                            <div id="fnbigtitle2"></div>
-                            <div id="fntitle2"></div>
+                            <div id="fnbigtitle2" class="fnbt"></div>
+                            <div id="fntitle2"  class="fntitle2"></div>
                         </div>
                     </div>
                 </div>
@@ -267,24 +267,29 @@
             </div>
             
         </section>
-        <section class="sub-news">
+        <section class="sub-news" id=" sub-news">
             <div class="container">
                 <header class="context-box__header">
                     <h3 class="context-box__title">聯合副刊｜閱讀</h3>
                 </header>
                 <div class="sub-news_wrapper">
-                    <div class="sub-news_description"></div>
+                    <div class="sub-news_description">
+                        <div id ="sub__text" class="sub__text"></div>
+                        <div id ="sub__title" class="sub__title"></div>
+                    </div>
                     <div class="sub-news_image">
-                        <img id="sub__image">
+                        <img class="sub__image" id="sub__image">
                     </div>
                 </div>
+                <script src="data/subnews.js"></script>
+                <script src="script/rendersubnews.js"></script>
             </div>
         </section>    
         <section class="secondary-news">
             <div class="container">
                 <section class="technology-content">
                     <header class="context-box__header6">
-                        <h3 class="context-box__title">軍武科技</h3>
+                        <h3 class="context-box__title technology_title">軍武科技</h3>
                     </header>
                     <div class="technology-content__list">
                         <div class="story-list__news6 ">
@@ -292,7 +297,7 @@
                                 <img class="tc" id="technology__image1">
                             </div>
                             <div class="story-list__text">
-                                <div id="tctitle1"></div>
+                                <div id="tctitle1" class="tctitle"></div>
                                 <div id="tctext1"></div>
                             </div>
                         </div>
@@ -301,7 +306,7 @@
                                 <img class="tc" id="technology__image2">
                             </div>
                             <div class="story-list__text">
-                                <div id="tctitle2"></div>
+                                <div id="tctitle2" class="tctitle"></div>
                                 <div id="tctext2"></div>
                             </div>
                         </div>
@@ -311,7 +316,7 @@
                 </section>		
                 <section class="life-content">
                     <header class="context-box__header6">
-                        <h3 class="context-box__title">發燒話題</h3>
+                        <h3 class="context-box__title life_title">發燒話題</h3>
                     </header>
                     <div class="life-content__list">
                         <div class="story-list__news6 ">
@@ -319,7 +324,7 @@
                                 <img class="lc" id="life__image1">
                             </div>
                             <div class="story-list__text">
-                                <div id="lctitle1"></div>
+                                <div id="lctitle1" class="lctitle"></div>
                                 <div id="lctext1"></div>
                             </div>
                         </div>
@@ -328,7 +333,7 @@
                                 <img class="lc" id="life__image2">
                             </div>
                             <div class="story-list__text">
-                                <div id="lctitle2"></div>
+                                <div id="lctitle2" class="lctitle"></div>
                                 <div id="lctext2"></div>
                             </div>
                         </div>

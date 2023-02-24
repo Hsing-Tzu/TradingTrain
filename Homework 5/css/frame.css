@@ -802,6 +802,22 @@ body {
         height: 300px;
         float: left;
     }
+    .author-list{
+        height: 300px;
+    }
+    .technology-content, .life-content {
+        height: 500px;
+    }
+    .context-box__header6 {
+        width: 100%;
+        height: 75px;
+    }
+    .secondary-news{
+        height: 1000px;
+    }
+    .pod-list{
+        height: 600px;
+    }
 }
 @media screen and (max-width:767.9px) {
     .list-news__left,.list-news__last,.section-news{
@@ -830,8 +846,10 @@ body {
         height: 400px;
         width: 100%;
     }
-    
     .newspaper-news{
+        display: none;
+    }
+    .newspaper-news1{
         flex-wrap: wrap;
         height: 400px;
         width: 30%;

@@ -187,14 +187,15 @@ body {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     padding: 1%;
-    bottom: 45%;
-    width: 40%;
+    bottom: 0;
+    width: 100%;
 }
 
 .list-news__center{
     display: flex;
     height: 300px;
     width: 100%;
+    position: relative;
 }
 
 /*list-news__last*/
@@ -307,7 +308,7 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
-    padding: 1% 5%;
+    margin: 1% 5%;
 }
 
 .gntext{

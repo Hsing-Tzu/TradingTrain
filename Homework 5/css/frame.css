@@ -518,6 +518,14 @@ body {
 
 /*sub-news*/
 
+.sub-news{
+    height: 450px;
+}
+
+.sub-news_title{
+    height: 40px;
+}
+
 .sub-news_wrapper {
     display: flex;
     flex-flow: row nowrap;
@@ -621,6 +629,8 @@ body {
     width: 45%;
     height: 400px;
     float: left;
+    padding-left: 2%;
+    padding-top: 2%;
 }
 
 .container{
@@ -682,6 +692,21 @@ body {
         flex-wrap: wrap;
         height: 500px;
         width: 25%;
+        padding: 0;
+    }
+    .list-news__center__image {
+        width: 100%;
+        height: 300px;
+    }
+    .section-news__image1 {
+        height: 300px;
+        width: 50%;
+        float: left;
+    }
+    .technology_title, .life_title {
+        border-top-style: solid;
+        border-top-width: 5px;
+        font-size: 20px;
     }
     .latest1{
         width:100%;
@@ -746,7 +771,10 @@ body {
         height: 300px;
         float: left;
     }
-    
+    .graphicnewspaper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 @media screen and (max-width:767.9px) {
     .list-news__left,.list-news__last,.section-news{

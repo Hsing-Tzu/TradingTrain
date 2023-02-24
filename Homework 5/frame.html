@@ -39,6 +39,8 @@
                 <div class="story-list__news1 ">
                     <div class="story-list__text"></div>
                 </div>
+                <script src="data/leftnews.js"></script>
+                <script src="script/renderleftnews.js"></script>
             </div>
             <div class="list-news__main" id="list-news__main">
                 <div class="list-news__center" id="list-news__center">
@@ -47,7 +49,10 @@
                             <div class="story-list__text list-news__center__text " id="list-news__center__text"></div>
                             <img class="list-news__center__image" id="list-news__center__image"/>
                         </div>
+                        
                     </div>
+                    <script src="data/mainnews.js"></script>
+                    <script src="script/rendermainnews.js"></script>
                 </div>  
                 
                 <div class="list-news__last" id="list-news__last">
@@ -60,32 +65,32 @@
                             <div class="list-news__last__text" id="list-news__last__text"></div>
                         </div>
                     </div>
+                    <script src="data/lastnews.js"></script>
+                    <script src="script/renderlastnews.js"></script>
                 </div>
             </div>
-            <script src="data/listnews.js"></script>
-            <script src="script/renderlistnews.js"></script>
-            <section class="right">
-                <section class=" editor-news" id="editor-news">
-                <div class="editor-news__wrapper">
-                    <header class="context-box__header editor__header">
-                        <h3 class="context-box__title">晚點評</h3>
-                    </header>
-                    <div class="context-box__content story-list__holder1">
-                        <div class="editor-list editor-list--hottest">
-                            <div class="author-list__image1">
-                                <img class="editor-news__image" id="editor-news__image"/>
-                            </div>
-                            <div class="author-list__text1" >
-                                <div id="editor-news__text" class="editor-news__text"></div>
-                                <div id="editor-news__name" class="editor-news__name"></div>
+            <div class="right">
+                <div class=" editor-news" id="editor-news">
+                    <div class="editor-news__wrapper">
+                        <header class="context-box__header editor__header">
+                            <h3 class="context-box__title">晚點評</h3>
+                        </header>
+                        <div class="context-box__content story-list__holder1">
+                            <div class="editor-list editor-list--hottest">
+                                <div class="author-list__image1">
+                                    <img class="editor-news__image" id="editor-news__image"/>
+                                </div>
+                                <div class="author-list__text1" >
+                                    <div id="editor-news__text" class="editor-news__text"></div>
+                                    <div id="editor-news__name" class="editor-news__name"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <script src="data/editornews.js"></script>
                     <script src="script/rendereditornews.js"></script>
+                    </div>
                 </div>
-            </section>
-            <section class=" select-news" id="select-news">
+                <div class=" select-news" id="select-news">
                 <header class="context-box__header1">
                     <h3 class="context-box__title1">精選推薦</h3>
                 </header>
@@ -105,10 +110,10 @@
                     <script src="data/selectnews.js"></script>
                     <script src="script/renderselectnews.js"></script>
                 </div>
-            </section>
-            </section>
-            
+            </div>
         </section>
+            
+        <section class="graphicnewspaper">
         <section class="graphic-news" id="graphic">
             <header class="context-box__header">
                 <h3 class="context-box__title">圖解新聞</h3>
@@ -136,6 +141,7 @@
                 <script src="data/newspaper.js"></script>
                 <script src="script/rendernewspaper.js"></script>
             </div>
+        </section>
         </section>
         <section class="section-news">
             <div class="sn1">
@@ -285,7 +291,7 @@
         <section class="sub-news" id=" sub-news">
             <div class="container">
                 <header class="context-box__header">
-                    <h3 class="context-box__title">聯合副刊｜閱讀</h3>
+                    <h3 class="context-box__title sub-news_title">聯合副刊｜閱讀</h3>
                 </header>
                 <div class="sub-news_wrapper">
                     <div class="sub-news_description">

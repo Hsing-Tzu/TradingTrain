@@ -1,4 +1,4 @@
-const leftElements = [...document.getElementsByClassName('story-list__text') ];
+const leftElements = [...document.getElementsByClassName('story-list__text3') ];
 leftElements.forEach((leftElement, idx) => {
   const aElement = document.createElement('a');
   const imgElement = document.createElement('img');

@@ -4,3 +4,8 @@ const graphicnews = {
     title:"圖解新聞標題標題圖解新聞標題標題圖解新聞標題標題圖解新聞標題標題圖解新聞標題標題圖解新聞標題標題",
     text:"圖解新聞內容內容圖解新聞內容內容圖解新聞內容內容圖解新聞內容內容圖解新聞內容內容圖解新聞內容內容圖解新聞內容內容圖解新聞內容內容圖解新聞內容內容",
 }
+
+const newspaper = {
+    src:"https://images.freeimages.com/images/large-previews/f3b/mixer-1641816.jpg",
+    href :"",
+}

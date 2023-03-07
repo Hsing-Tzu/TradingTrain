@@ -7,8 +7,11 @@ html,body {
 body {
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
+
+}
+
+.header,.list-news,.section-news,.lander-editor,.leader-comment,.sub-news,.secondary-news,.latest-news,.pod-news{
+    padding: 0% 10%;
 }
 
 .header{
@@ -234,6 +237,10 @@ body {
     padding: 1% 5%;
 }
 
+.lander-editor{
+    background-color: whitesmoke;
+    height: 450px;
+}
 
 .right{
     display: flex;
@@ -278,6 +285,11 @@ body {
     padding-top: 3%;
 }
 
+.graphicnewspaper{
+    background-color: whitesmoke;
+    height: 450px;
+}
+
 /*graphic-news*/
 
 .graphic-news{
@@ -285,6 +297,7 @@ body {
     flex-wrap: wrap;
     height: 400px;
     width: 70%;
+    padding-left: 10%;
 }
 
 .graphic-news__image{
@@ -410,6 +423,7 @@ body {
     flex-wrap: wrap;
     height: 400px;
     width: 20%;
+    padding-right: 10%;  
 }
 
 .newspaper-news__image{
@@ -419,6 +433,10 @@ body {
 }
 
 /*lander-editor*/
+
+.lander-editor__title{
+    padding-top: 20px;
+}
 
 .le1,.le2{
     width: 50%;
@@ -519,11 +537,13 @@ body {
 /*sub-news*/
 
 .sub-news{
-    height: 450px;
+    height: 500px;
+    background-color: rgb(175, 3, 3);
 }
 
 .sub-news_title{
     height: 40px;
+    padding-top: 20px;
 }
 
 .sub-news_wrapper {
@@ -540,6 +560,7 @@ body {
     border-width: 1px;
     border-style: solid;
     padding: 10% 5%;
+    background-color: white;
 }
 
 .sub-news_image{
@@ -600,7 +621,16 @@ body {
 .technology_title, .life_title{
     border-top-style:solid;
     border-top-width: 5px;
+    
     font-size: 24px;
+}
+
+.technology_title{
+    border-top-color: blue;
+}
+
+.life_title{
+    border-top-color: rgb(175, 3, 3);
 }
 
 .tctitle,.lctitle{
@@ -631,6 +661,10 @@ body {
     float: left;
     padding-left: 2%;
     padding-top: 2%;
+}
+
+.latest-news{
+    background-color: whitesmoke;
 }
 
 .container{
@@ -703,7 +737,7 @@ body {
     }
     .section-news__image1 {
         height: 300px;
-        width: 50%;
+        width: 45%;
         float: left;
     }
     .technology_title, .life_title {
@@ -733,6 +767,7 @@ body {
     .story-list__news1{
         width:100%;
     }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:1023.9px) {
@@ -781,6 +816,7 @@ body {
         flex-wrap: wrap;
         height: 400px;
         width: 100%;
+        padding-right: 10%;
     }
     .newspaper-news{
         display: none;
@@ -821,6 +857,14 @@ body {
     }
     .pod-list{
         height: 600px;
+    }
+    .graphicnewspaper {
+       background-color: white;
+       height: 0;
+    }
+    .lander-editor{
+        background-color: white;
+        height: auto;
     }
 }
 @media screen and (max-width:767.9px) {
@@ -877,10 +921,12 @@ body {
         font-size: 20px;
         width: 130%;
     }
+
     .graphic-news{
         flex-wrap: wrap;
         height: 450px;
         width: 100%;
+        padding-right: 10%;
     }
     .context-box__title2{
         display: none;
@@ -1051,6 +1097,7 @@ body {
         border-width: 0;
         border-style: solid;
         padding: 5% 0%;
+        background-color: rgb(175, 3, 3);
     }
     .sub__title{
         font-size: 20px;
@@ -1121,4 +1168,8 @@ body {
         padding-top: 2%;
         padding-left: 0%;
     }
+    .graphicnewspaper {
+        background-color: white;
+
+     }
 }

@@ -10,7 +10,12 @@ body {
 
 }
 
-.header,.list-news,.section-news,.lander-editor,.leader-comment,.sub-news,.secondary-news,.latest-news,.pod-news{
+a{
+    color: black;
+    text-decoration:none;
+}
+
+.list-news,.section-news,.lander-editor,.leader-comment,.sub-news,.secondary-news,.latest-news,.pod-news{
     padding: 0% 10%;
 }
 
@@ -18,6 +23,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 100px;
+    padding-left: 10%;
+    padding-right:10% ;
 }
 
 .logo{
@@ -31,10 +38,14 @@ body {
 
 .menu{
     width: 55%;
+    line-height: 100px;
+    
 }
 
 .tool{
     width: 25%;
+    background-color: rgb(175, 3, 3);
+    height: 100px;
 }
 
 /*pod-news*/
@@ -66,7 +77,9 @@ body {
 }
 
 
-
+.story-list__text3 img{
+    width: 100%;
+}
 
 .story-list__image1{
     width: 40%;
@@ -143,7 +156,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 500px;
-    width: 20%;
+    width: 19%;
+    margin-right: 1%;
 }
 
 .list-news__main{
@@ -371,6 +385,7 @@ body {
 .in1,.fn1{
     float: left;
     padding:0% 3% ;
+    width: 35%;
 }
 
 .inbt,.fnbt{
@@ -380,6 +395,7 @@ body {
     border-radius: 10%;
     width: 90px;
     line-height: 45px;
+    color: rgb(175, 3, 3);
 }
 
 .intitle1,.fntitle1{
@@ -487,6 +503,7 @@ body {
     border-radius: 10%;
     width: 90px;
     line-height: 45px;
+    color: rgb(175, 3, 3);
 }
 
 .letitle{
@@ -544,6 +561,7 @@ body {
 .sub-news_title{
     height: 40px;
     padding-top: 20px;
+    color: white;
 }
 
 .sub-news_wrapper {
@@ -677,12 +695,23 @@ body {
 }
 
 .footer{
-    background-color: black;
+    background-color: grey;
     height: 200px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.footer>a>img{
+    width: 30px;
 }
 
 
 @media screen and (min-width: 1280px) {
+    
+    .bigcontainer{
+        width: 1280px;
+    }
     .author,.pod{
         width: 25%;
     }
@@ -709,6 +738,9 @@ body {
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279.9px) {
+    .bigcontainer{
+        width: 992px;
+    }
     .list-news__left{
         display: none;
     }
@@ -771,6 +803,9 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width:1023.9px) {
+    .bigcontainer{
+        width: 736px;
+    }
     .list-news__left,.list-news__last,.section-news{
         display: none;
     }
@@ -1172,4 +1207,17 @@ body {
         background-color: white;
 
      }
+}
+
+.context-box__header6:before {
+    background-color: blue;
+    content: "";
+    height: 6px;
+    width: 138px;
+    position: absolute;
+    z-index: -1;
+  }
+.technology_title{
+    padding-left: 0;
+  padding-top: 18px;
 }

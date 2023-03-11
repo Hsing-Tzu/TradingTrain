@@ -5,7 +5,7 @@ const internationalnews = {
     href1 :" https://images.freeimages.com/images/large-previews/e5c/mill-house-1637156.jpg",
     bigtitle1:"大標分類",
     title1:"國際新聞標題1標題1",
-    text1:"國際新聞內容1內容",
+    text1:"國際新聞內容1內容國際新聞內容1內容國際新聞內容1內容國際新聞內容1內容國際新聞內容1內容國際新聞內容1內容國際新聞內容1內容國際新聞內容1內容國際新聞內容1內容",
     bigtitle2:"大標分類",
     title2:"國際新聞標題2標題2",
 }

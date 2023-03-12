@@ -1074,12 +1074,24 @@ a{
     }
     .logo{
         width: 75%;
+        height: 50px;
+        
+    }
+    .logoimg {
+        width: 50%;
+        height: 50px;
     }
     .tool{
         width:25%;
+        height: 50px;
     }
     .menu{
         width: 100%;
+        display: none;
+    }
+    .menu1{
+        width: 100%;
+        line-height: 50px;
     }
     .context-box__header1 {
         height: 0px;

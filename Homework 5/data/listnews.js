@@ -44,18 +44,24 @@ const editornews = {
 const selectnews = [
     {
         href :" ",
+        src :"https://images.freeimages.com/images/large-previews/e5c/mill-house-1637156.jpg",
         text :"新聞標題新聞標題新聞標題新聞標題新聞標題"
     },
     {
         href :" ",
+        src :"https://images.freeimages.com/images/large-previews/e5c/mill-house-1637156.jpg",
         text :"新聞標題新聞標題新聞標題新聞標題新聞標題"
     },
     {
         href :" ",
+        src :"https://images.freeimages.com/images/large-previews/4b2/walking-on-the-mountain-1-1566594.jpg",
+
         text :"新聞標題新聞標題新聞標題新聞標題新聞標題"
     },
     {
         href :" ",
+        src :"https://images.freeimages.com/images/large-previews/4b2/walking-on-the-mountain-1-1566594.jpg",
+
         text :"新聞標題新聞標題新聞標題新聞標題新聞標題"
     },
 ];

@@ -37,11 +37,13 @@ namecElement.innerText =editornews.name;
 const selectElements = [...document.getElementsByClassName('story-list__text2') ];
 selectElements.forEach((selectElement, idx) => {
   const aElement = document.createElement('a');
-  const imgElement = document.getElementsByClassName('podimg');
+  const imgElement = document.createElement('img');
+  imgElement.className='selectimage';
   aElement.href = selectnews[idx].href;
   aElement.innerText = selectnews[idx].text;
   imgElement.src = selectnews[idx].src;
   selectElement.appendChild(aElement);
+  selectElement.appendChild(imgElement);
 });
 
 const np1Element = document.getElementById("newspaper-news__image1");

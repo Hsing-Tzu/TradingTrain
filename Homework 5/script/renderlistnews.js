@@ -34,19 +34,31 @@ imgcElement.src = editornews.src;
 textcElement.innerText = editornews.text;
 namecElement.innerText =editornews.name;
 
-const selectElements = [...document.getElementsByClassName('story-list__text2') ];
-selectElements.forEach((selectElement, idx) => {
+const selecttextElements = [...document.getElementsByClassName('story-list__text2') ];
+selecttextElements.forEach((selectElement, idx) => {
   const aElement = document.createElement('a');
-  const imgElement = document.createElement('img');
-  imgElement.className='selectimage';
   aElement.href = selectnews[idx].href;
   aElement.innerText = selectnews[idx].text;
+  selectElement.appendChild(aElement);
+});
+
+const selectimageElements = [...document.getElementsByClassName('story-list__image2') ];
+selectimageElements.forEach((selectElement, idx) => {
+  const aElement = document.createElement('a');
+  const imgElement = document.createElement('img');
+  imgElement.className="selectimage";
+  aElement.href = selectnews[idx].href;
   imgElement.src = selectnews[idx].src;
   selectElement.appendChild(aElement);
-  selectElement.appendChild(imgElement);
+  aElement.appendChild(imgElement);
 });
 
 const np1Element = document.getElementById("newspaper-news__image1");
 const imgnp1Element = document.getElementById("newspaper1");
 np1Element.href = newspaper1.href;
 imgnp1Element.src = newspaper1.src;
+
+const np2Element = document.getElementById("newspaper-news__image2");
+const imgnp2Element = document.getElementById("newspaper2");
+np2Element.href = newspaper1.href;
+imgnp2Element.src = newspaper1.src;

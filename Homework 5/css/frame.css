@@ -1259,6 +1259,9 @@ a{
     .lander-editor{
         height: 500px;
     }
+    .letext{
+        width: calc(100% - 100px);
+        }
     .logo{
         width: 75%;
         height: 50px;

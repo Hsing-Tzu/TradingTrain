@@ -1,13 +1,3 @@
-<template>
-  <div>
-    <button v-if="!publicWalletAddress" @click="connectPhantom">Connect Wallet</button>
-    <div v-else>
-      <p>Welcome to the Solana network, {{ publicWalletAddress }}</p>
-      <button @click="disconnectPhantom">Disconnect Wallet</button>
-    </div>
-  </div>
-</template>
-
 <script>
 export default {
   data() {
@@ -38,6 +28,15 @@ export default {
 }
 </script>
 
+<template>
+    <div>
+      <button v-if="!publicWalletAddress" @click="connectPhantom">Connect Wallet</button>
+      <div v-else>
+        <p>Welcome to the Solana network, {{ publicWalletAddress }}</p>
+        <button @click="disconnectPhantom">Disconnect Wallet</button>
+      </div>
+    </div>
+  </template>
 
 <style scoped>
 body {

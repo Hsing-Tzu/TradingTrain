@@ -42,10 +42,4 @@ export default {
 body {
   background-color: rgba(31, 41, 55, 1);
 }
-.success_img {
-  width: 90%;
-}
-.success_img img {
-  width: 90%;
-}
 </style>

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "dr-vue-echarts": "^1.0.14"
+  }
+}

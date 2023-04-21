@@ -1,4 +1,3 @@
-
 <script>
 import phantom_connect from './components/phantom_connect.vue'
 // Destructuring the data named solana from window

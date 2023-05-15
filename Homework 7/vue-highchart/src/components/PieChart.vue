@@ -23,7 +23,7 @@ export default {
       },
       accessibility: {
         point: {
-          valueSuffix: '%'
+          valueSuffix: 'abc'
         }
       },
       plotOptions: {

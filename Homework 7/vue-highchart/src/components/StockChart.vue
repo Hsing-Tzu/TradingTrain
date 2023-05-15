@@ -7,7 +7,7 @@ export default {
   setup() {
     const stockOptions = {
       rangeSelector: {
-        selected: 1
+        selected: 2
       },
       title: {
         text: 'AAPL Stock Price'

@@ -17,7 +17,8 @@ const routes = [
   {
     path: '/FlightSearchResults',
     name: 'FlightSearchResults',
-    component: FlightSearchResults
+    component: FlightSearchResults,
+    // props: {flights: { type: Object }}, 
   },
 ]
 
